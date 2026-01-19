@@ -1,489 +1,279 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="pt-br">
 
-
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Rota do Dólar - Guia para Devs</title>
-
-    <link rel="stylesheet" href="output.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-
-
-
+        rel="stylesheet" />
     <script src="https://kit.fontawesome.com/18ad745327.js" crossorigin="anonymous"></script>
-
 </head>
 
-
-
 <body class="font-inter">
-
-
-
     <main>
-
-
-
         <header class="bg-[url('./assets/background.png')] bg-cover">
-
             <div
                 class="w-full flex flex-col-reverse justify-center items-center text-center pb-10 px-5 bg-primary/80 md:flex-row md:px-10 md:py-30 md:justify-evenly md:text-left lg:px-70 xl:h-screen">
-
-                <div class="flex flex-col justify-between items-center gap-6 relative md:w-1/2 md:items-start ">
-
-                    <h1 class="text-4xl xl:text-5xl text-neutral-light font-dm-serif-text">A ROTA DO DÓLAR: O GUIA PARA
-                        DEVS
-
-                        BRASILEIROS </h1>
-
-                    <p class="text-xl text-quaternary xl:text-2xl">Aprenda o passo a passo para ser contratado por
-                        empresas do
-
-                        exterior em menos de
-
-                        90 dias, mesmo sem inglês fluente.</p>
-
-
-
+                <div class="flex flex-col justify-between items-center gap-6 relative md:w-1/2 md:items-start">
+                    <h1 class="text-4xl xl:text-5xl text-neutral-light font-dm-serif-text">
+                        A ROTA DO DÓLAR: O GUIA PARA DEVS BRASILEIROS
+                    </h1>
+                    <p class="text-xl text-quaternary xl:text-2xl">
+                        Aprenda o passo a passo para ser contratado por empresas do
+                        exterior em menos de 90 dias, mesmo sem inglês fluente.
+                    </p>
                     <a href="#checkout"
-                        class="bg-tertiary w-full h-12 text-2xl  text-neutral-light font-dm-serif-text  flex justify-center items-center rounded-2xl hover:bg-primary hover:border cursor-pointer md:w-80 ">
-
-                        BAIXAR AGORA</a>
-
+                        class="bg-tertiary w-full h-12 text-2xl text-neutral-light font-dm-serif-text flex justify-center items-center rounded-2xl hover:bg-primary hover:border cursor-pointer md:w-80">
+                        BAIXAR AGORA
+                    </a>
                 </div>
-
-
 
                 <figure class="flex justify-center md:w-1/2">
-
                     <img class="w-80 xl:w-120" src="./assets/ebook.png"
-                        alt="Capa 3D do ebook A Rota do Dólar com fundo escuro">
-
+                        alt="Capa 3D do ebook A Rota do Dólar com fundo escuro" />
                 </figure>
-
             </div>
-
         </header>
 
-
-
         <section aria-labelledby="porque-ebook-titulo">
-
             <div class="flex flex-col p-20 px-5 gap-10 justify-center items-center md:px-15 xl:px-50">
-
                 <header class="text-center border-b-3 md:w-100 border-primary">
-
-                    <h2 class="text-3xl font-dm-serif-text xl:text-4xl">POR QUE ESSE EBOOK É PARA VOCÊ?</h2>
-
+                    <h2 id="porque-ebook-titulo" class="text-3xl font-dm-serif-text xl:text-4xl">
+                        POR QUE ESSE EBOOK É PARA VOCÊ?
+                    </h2>
                 </header>
-
-
-
-
 
                 <ul class="flex flex-col gap-10 lg:grid grid-cols-3 text-neutral-light">
-
                     <li
-                        class="bg-[url('./assets/contrato.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end ">
-
-
-
-                        <div
-                            class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg min-h-40 flex flex-col justify-center items-center p-5 rounded-2xl md:h-full md:w-1/2 lg:w-full  lg:h-70">
-
-                            <h3 class="text-2xl font-dm-serif-text text-center">Onde os gringos
-
-                                contratam</h3>
-
-                            <p class="text-xl text-center">As 5 plataformas secretas que pagam 4x mais que
-
-                                o
-
-                                mercado nacional.</p>
-
-                        </div>
-
-                    </li>
-
-                    <li
-                        class="bg-[url('./assets/linkedin.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end ">
-
-
-
+                        class="bg-[url('./assets/contrato.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end">
                         <div
                             class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg min-h-40 flex flex-col justify-center items-center p-5 rounded-2xl md:h-full md:w-1/2 lg:w-full lg:h-70">
-
-                            <h3 class="text-2xl font-dm-serif-text text-center">LinkedIn Magnético
-
+                            <h3 class="text-2xl font-dm-serif-text text-center">
+                                Onde os gringos contratam
                             </h3>
-
-                            <p class="text-xl text-center">Como configurar seu perfil para ser caçado por
-
-                                recrutadores internacionais.</p>
-
+                            <p class="text-xl text-center">
+                                As 5 plataformas secretas que pagam 4x mais que o mercado
+                                nacional.
+                            </p>
                         </div>
-
                     </li>
-
                     <li
-                        class="bg-[url('./assets/bandeira-eua.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end ">
-
+                        class="bg-[url('./assets/linkedin.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end">
                         <div
-                            class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg min-h-40 flex flex-col justify-center items-center p-5 rounded-2xl md:h-full md:w-1/2 lg:w-full  lg:h-70">
-
-                            <h3 class="text-2xl font-dm-serif-text text-center">O Hack do Inglês
-
-                                Técnico</h3>
-
-                            <p class="text-xl text-center">As únicas 200 palavras que você realmente
-
-                                precisa
-
-                                para passar na entrevista</p>
-
+                            class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg min-h-40 flex flex-col justify-center items-center p-5 rounded-2xl md:h-full md:w-1/2 lg:w-full lg:h-70">
+                            <h3 class="text-2xl font-dm-serif-text text-center">
+                                LinkedIn Magnético
+                            </h3>
+                            <p class="text-xl text-center">
+                                Como configurar seu perfil para ser caçado por recrutadores
+                                internacionais.
+                            </p>
                         </div>
-
                     </li>
-
+                    <li
+                        class="bg-[url('./assets/bandeira-eua.jpg')] bg-cover w-full h-150 flex flex-col justify-end items-center p-5 rounded-xl md:items-end">
+                        <div
+                            class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg min-h-40 flex flex-col justify-center items-center p-5 rounded-2xl md:h-full md:w-1/2 lg:w-full lg:h-70">
+                            <h3 class="text-2xl font-dm-serif-text text-center">
+                                O Hack do Inglês Técnico
+                            </h3>
+                            <p class="text-xl text-center">
+                                As únicas 200 palavras que você realmente precisa para passar
+                                na entrevista
+                            </p>
+                        </div>
+                    </li>
                 </ul>
-
             </div>
-
         </section>
-
-
 
         <section aria-labelledby="autor-titulo">
-
-            <div class="flex flex-col p-20 px-5 gap-10 items-center md:px-15  xl:px-100">
-
-
-
-
-
-                <header class="text-center border-b-3 md:w-100 border-primary  ">
-
-                    <h2 class="text-3xl font-dm-serif-text xl:text-4xl">SOBRE A AUTORA</h2>
-
+            <div class="flex flex-col p-20 px-5 gap-10 items-center md:px-15 xl:px-100">
+                <header class="text-center border-b-3 md:w-100 border-primary">
+                    <h2 id="autor-titulo" class="text-3xl font-dm-serif-text xl:text-4xl">
+                        SOBRE A AUTORA
+                    </h2>
                 </header>
-
                 <figure class="w-full flex justify-center items-center">
-
                     <img class="w-50 h-50 md:w-80 md:h-80 object-cover rounded-full" src="./assets/autora.jpg"
-                        alt="Foto de rosto da Carla Dias sorrindo">
-
+                        alt="Foto de rosto da Carla Dias sorrindo" />
                 </figure>
-
                 <div class="flex flex-col gap-5 text-justify xl:text-xl">
-
-                    <p>Por mais de 8 anos, Carla Dias viveu o drama de muitos desenvolvedores brasileiros: entregava
-
-                        código de nível sênior, mas via seu salário estagnado no teto do mercado nacional. Mesmo
-
-                        dominando a parte técnica, ela recusava convites do LinkedIn internacional por puro medo de
-
-                        travar na conversação, acreditando que a fluência perfeita no inglês era um pré-requisito
-
-                        obrigatório para trabalhar fora.</p>
-
                     <p>
-
-                        A virada de chave aconteceu quando ela decidiu 'hackear' o processo seletivo gringo. Carla
-
-                        mapeou os padrões das entrevistas técnicas e desenvolveu o método do 'Inglês Funcional para
-
-                        Devs', focado exclusivamente no vocabulário que os recrutadores realmente avaliam. Com essa
-
-                        estratégia, conquistou sua primeira vaga remota para uma fintech de Nova York em menos de 90
-
-                        dias, quadruplicando sua renda sem precisar sair do Brasil.
-
+                        Por mais de 8 anos, Carla Dias viveu o drama de muitos
+                        desenvolvedores brasileiros: entregava código de nível sênior, mas
+                        via seu salário estagnado no teto do mercado nacional. Mesmo
+                        dominando a parte técnica, ela recusava convites do LinkedIn
+                        internacional por puro medo de travar na conversação.
+                    </p>
+                    <p>
+                        A virada de chave aconteceu quando ela decidiu 'hackear' o
+                        processo seletivo gringo. Carla mapeou os padrões das entrevistas
+                        técnicas e desenvolveu o método do 'Inglês Funcional para Devs'.
+                    </p>
+                    <p>
+                        Hoje, atuando como Tech Lead Global, Carla transformou sua
+                        experiência pessoal em um sistema replicável.
                     </p>
 
-                    <p>
-
-                        Hoje, atuando como Tech Lead Global, Carla transformou sua experiência pessoal em um sistema
-
-                        replicável. Após validar seu método mentorando mais de 300 alunos que hoje trabalham para
-
-                        empresas do Vale do Silício e Europa, ela compilou neste guia o passo a passo exato para quem
-
-                        deseja dolarizar a carreira e conquistar a liberdade geográfica, independentemente do nível de
-
-                        inglês atual.
-
+                    <p class="text-neutral-dark bg-tertiary p-4 rounded-xl font-dm-serif-text">
+                        <strong>"Seu objetivo de vida é garantir que o CEP de nascimento nunca
+                            mais seja uma barreira para o sucesso financeiro de um
+                            desenvolvedor talentoso."</strong>
                     </p>
-
-                    <b class="text-neutral-dark bg-tertiary p-4 rounded-xl font-dm-serif-text">"Seu objetivo de vida é
-
-                        garantir que o CEP de nascimento nunca mais seja uma barreira para o sucesso financeiro de um
-
-                        desenvolvedor talentoso."</b>
-
-
-
                 </div>
-
-
-
             </div>
-
-
-
         </section>
 
-
-
-        <div aria-labelledby="conteudo-titulo">
-
-            <div
-                class="flex flex-col p-20 px-5  gap-10  items-center md:px-15 bg-linear-to-br from-primary to-quaternary ">
-
+        <section aria-labelledby="conteudo-titulo" class="bg-gradient-to-br from-primary to-quaternary">
+            <div class="flex flex-col p-20 px-5 gap-10 items-center md:px-15">
                 <header class="text-center border-b-3 border-primary md:w-100">
-
-                    <h2 class="text-3xl font-dm-serif-text text-neutral-light">O QUE VOCÊ IRÁ DOMINAR?</h2>
-
+                    <h2 id="conteudo-titulo" class="text-3xl font-dm-serif-text text-neutral-light">
+                        O QUE VOCÊ IRÁ DOMINAR?
+                    </h2>
                 </header>
-
                 <ul class="flex flex-col gap-10 md:grid md:grid-cols-2 text-neutral-light">
-
                     <li
                         class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
-
-
-
                         <i class="fa-solid fa-earth-americas text-3xl" aria-hidden="true"></i>
-
-                        <p class="text-center text-xl ">Aprenda a trabalhar de qualquer lugar do mundo
-
-                            recebendo em dólar ou
-
-                            euro.</p>
-
-                    </li>
-
-                    <li
-                        class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
-
-
-
-                        <i class="fa-solid fa-chart-line  text-3xl" aria-hidden="true"></i>
-
-                        <p class="text-center text-xl ">Estratégias reais para triplicar seu poder de
-
-                            compra em poucos meses.</p>
-
-                    </li>
-
-                    <li
-                        class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
-
-
-
-                        <i class="fa-solid fa-shield-halved  text-3xl" aria-hidden="true"></i>
-
-                        <p class="text-center text-xl ">O guia definitivo sobre impostos, contratos e
-
-                            como não cair em ciladas.
-
+                        <p class="text-center text-xl">
+                            Aprenda a trabalhar de qualquer lugar do mundo recebendo em
+                            dólar ou euro.
                         </p>
-
                     </li>
-
                     <li
                         class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
-
-
-
-                        <i class="fa-solid fa-handshake  text-3xl" aria-hidden="true"></i>
-
-                        <p class="text-center text-xl ">Como acessar comunidades exclusivas de
-
-                            desenvolvedores internacionais.
-
+                        <i class="fa-solid fa-chart-line text-3xl" aria-hidden="true"></i>
+                        <p class="text-center text-xl">
+                            Estratégias reais para triplicar seu poder de compra em poucos
+                            meses.
                         </p>
-
                     </li>
-
+                    <li
+                        class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
+                        <i class="fa-solid fa-shield-halved text-3xl" aria-hidden="true"></i>
+                        <p class="text-center text-xl">
+                            O guia definitivo sobre impostos, contratos e como não cair em
+                            ciladas.
+                        </p>
+                    </li>
+                    <li
+                        class="w-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:w-80">
+                        <i class="fa-solid fa-handshake text-3xl" aria-hidden="true"></i>
+                        <p class="text-center text-xl">
+                            Como acessar comunidades exclusivas de desenvolvedores
+                            internacionais.
+                        </p>
+                    </li>
                 </ul>
+            </div>
+        </section>
 
-                </section>
-
-
-
-                <section aria-labelledby="depoimentos-titulo">
-
-
-
-                    <div class="flex flex-col p-20 px-5  gap-10 justify-center items-center">
-
-                        <header class="text-center border-b-3 border-primary md:w-100 ">
-
-                            <h2 class="text-3xl font-dm-serif-text xl:text-4xl">DEPOIMENTOS</h2>
-
-                        </header>
-
-                        <div class="text-neutral-light flex flex-col gap-5 text-center grid-cols-2 md:grid">
-
-                            <div
-                                class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
-
-                                <i class="fa-solid fa-circle-user text-4xl"></i>
-
-                                <blockquote class="font-2xl">
-
-                                    "Saí de um salário de R$ 6k para $4.5k USD em dois meses seguindo o guia. É
-                                    surreal."
-
-                                </blockquote>
-
-                                <figcaption>
-
-                                    <cite>- João Silva</cite>
-
-                                    <div class="stars" aria-label="5 de 5 estrelas">⭐⭐⭐⭐⭐</div>
-
-                                </figcaption>
-
+        <section aria-labelledby="depoimentos-titulo">
+            <div class="flex flex-col p-20 px-5 gap-10 justify-center items-center">
+                <header class="text-center border-b-3 border-primary md:w-100">
+                    <h2 id="depoimentos-titulo" class="text-3xl font-dm-serif-text xl:text-4xl">
+                        DEPOIMENTOS
+                    </h2>
+                </header>
+                <div class="text-neutral-light flex flex-col gap-5 text-center md:grid md:grid-cols-2">
+                    <figure
+                        class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
+                        <i class="fa-solid fa-circle-user text-4xl" aria-hidden="true"></i>
+                        <blockquote class="text-xl">
+                            "Saí de um salário de R$ 6k para $4.5k USD em dois meses
+                            seguindo o guia. É surreal."
+                        </blockquote>
+                        <figcaption>
+                            <cite class="not-italic font-bold">- João Silva</cite>
+                            <div class="stars text-yellow-400" aria-label="5 de 5 estrelas">
+                                ⭐⭐⭐⭐⭐
                             </div>
-
-
-
-                            <div
-                                class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
-
-                                <i class="fa-solid fa-circle-user text-4xl"></i>
-
-                                <blockquote class="font-2xl">
-
-                                    "Consegui meu primeiro emprego remoto com uma empresa do Canadá graças às dicas da
-                                    Carla!"
-
-                                </blockquote>
-
-                                <figcaption>
-
-                                    <cite>- Maria Oliveira</cite>
-
-                                    <div class="stars" aria-label="5 de 5 estrelas">⭐⭐⭐⭐⭐</div>
-
-                                </figcaption>
-
+                        </figcaption>
+                    </figure>
+                </div>
+                 <div class="text-neutral-light flex flex-col gap-5 text-center md:grid md:grid-cols-2">
+                    <figure
+                        class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
+                        <i class="fa-solid fa-circle-user text-4xl" aria-hidden="true"></i>
+                        <blockquote class="text-xl">
+                            "Consegui meu primeiro emprego remoto com uma empresa do Canadá graças às dicas da Carla!"
+                        </blockquote>
+                        <figcaption>
+                            <cite class="not-italic font-bold">- Maria Oliveira</cite>
+                            <div class="stars text-yellow-400" aria-label="5 de 5 estrelas">
+                                ⭐⭐⭐⭐⭐
                             </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                 <div class="text-neutral-light flex flex-col gap-5 text-center md:grid md:grid-cols-2">
+                    <figure
+                        class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
+                        <i class="fa-solid fa-circle-user text-4xl" aria-hidden="true"></i>
+                        <blockquote class="text-xl">
+                            "O capítulo sobre contratos salvou minha pele. Agora trabalho tranquilo sabendo meus direitos."
 
-
-
-                            <div
-                                class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
-
-                                <i class="fa-solid fa-circle-user text-4xl"></i>
-
-                                <blockquote class="font-2xl">
-
-                                    "O capítulo sobre contratos salvou minha pele. Agora trabalho tranquilo sabendo meus
-
-                                    direitos."
-
-                                </blockquote>
-
-                                <figcaption>
-
-                                    <cite>- Pedro Santos</cite>
-
-                                    <div class="stars" aria-label="5 de 5 estrelas">⭐⭐⭐⭐⭐</div>
-
-                                </figcaption>
-
+                        </blockquote>
+                        <figcaption>
+                            <cite class="not-italic font-bold">- Pedro Santos</cite>
+                            <div class="stars text-yellow-400" aria-label="5 de 5 estrelas">
+                                ⭐⭐⭐⭐⭐
                             </div>
-
-                            <div
-                                class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
-
-                                <i class="fa-solid fa-circle-user text-4xl"></i>
-
-                                <blockquote class="font-2xl">
-
-                                    "Nunca pensei que aprender inglês técnico pudesse ser tão simples e eficaz.
-                                    Recomendo
-
-                                    demais!"
-
-                                </blockquote>
-
-                                <figcaption>
-
-                                    <cite>- Ana Costa</cite>
-
-                                    <div class="stars" aria-label="5 de 5 estrelas">⭐⭐⭐⭐⭐</div>
-
-                                </figcaption>
-
+                        </figcaption>
+                    </figure>
+                </div>
+                 <div class="text-neutral-light flex flex-col gap-5 text-center md:grid md:grid-cols-2">
+                    <figure
+                        class="w-full bg-secondary h-50 flex flex-col justify-evenly items-center p-5 rounded-xl md:h-80 md:w-80">
+                        <i class="fa-solid fa-circle-user text-4xl" aria-hidden="true"></i>
+                        <blockquote class="text-xl">
+                            "Nunca pensei que aprender inglês técnico pudesse ser tão simples e eficaz. Recomendo demais!"
+                        </blockquote>
+                        <figcaption>
+                            <cite class="not-italic font-bold">- Ana Costa</cite>
+                            <div class="stars text-yellow-400" aria-label="5 de 5 estrelas">
+                                ⭐⭐⭐⭐⭐
                             </div>
+                        </figcaption>
+                    </figure>
+                </div>
+              
+        </section>
 
-                        </div>
+        <section id="checkout" class="pricing-section bg-gradient-to-br from-tertiary to-primary">
+            <div class="flex flex-col py-20 px-5 justify-center items-center text-tertiary">
+                <figure class="flex justify-center mb-5">
+                    <img class="w-80" src="./assets/ebook.png" alt="Capa 3D do ebook A Rota do Dólar" />
+                </figure>
 
-                </section>
+                <p class="text-lg text-neutral-light/80">
+                    De <s class="text-red-500 font-bold decoration-2">R$ 197,00</s> por
+                    apenas
+                </p>
 
+                <h2 class="text-4xl text-neutral-light font-bold my-2">
+                    R$ 47,00
+                    <span class="text-lg font-normal block md:inline text-neutral-light/80">(ou 5x de R$ 10,11)</span>
+                </h2>
 
-
-
-
-
-
+                <a href="https://pay.hotmart.com/..."
+                    class="bg-tertiary w-full h-14 text-2xl text-neutral-light font-dm-serif-text flex justify-center items-center rounded-2xl hover:bg-white hover:text-tertiary transition duration-300 mt-8 md:w-100 shadow-xl">
+                    Sim, Quero Meu Ebook
+                </a>
+            </div>
+            <div></div>
+        </section>
     </main>
 
-    <footer class="pricing-section">
-
-        <div
-            class="flex flex-col mt-20 py-10 px-5 bg-linear-to-br from-tertiary to-primary justify-center items-center text-tertiary">
-
-
-
-            <figure class="flex justify-center">
-
-                <img class="w-80" src="./assets/ebook.png" alt="Capa 3D do ebook A Rota do Dólar com fundo escuro">
-
-            </figure>
-
-
-
-            <p class="text-lg">De <span class="text-red-600">R$ 197,00</span> por apenas</p>
-
-
-
-            <h2 class="text-3xl text-neutral-light">R$ 47,00 <span class="text-sm text-tertiary">(ou 5x de R$
-
-                    10,11)</span></h2>
-
-
-
-
-
-
-
-            <a href="#checkout"
-                class="bg-tertiary w-full h-12 text-2xl text-neutral-light font-dm-serif-text  flex justify-center items-center rounded-2xl hover:bg-primary hover:border cursor-pointer mt-5 md:w-100">
-
-                Sim, Quero Meu Ebook</a>
-
-        </div>
-
+    <footer class="bg-primary text-center py-6 text-white text-sm">
+        <p>&copy; 2026 A Rota do Dólar. Todos os direitos reservados.</p>
     </footer>
-
-
-
 </body>
+
+</html>

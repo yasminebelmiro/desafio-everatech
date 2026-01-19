@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #1D6069;
+    --color-secondary: #1D6069;
+    --color-tertiary: #9CBCBF;
+    --color-quaternary: #DBDBDB;
+    --color-neutral-light: #F5F5F5;
+    --color-neutral-dark: #333333;
+
+    --font-dm-serif-text: 'DM Serif Text', serif;
+    --font-markazi-text:  "Inter", sans-serif;
+}
